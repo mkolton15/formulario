@@ -34,20 +34,20 @@ label + .radio-wrapper {
         left: .5rem;
     }
 
-        &:hover, &:focus-within {
-            border: 1px solid var(--stroke-highlight);
+            &:hover, &:focus-within {
+                border: 1px solid var(--stroke-highlight);
 
-            & .radio-image {
-                background-image: url(../../assets/circle-02.svg);
+                & .radio-image {
+                    background-image: url(../../assets/circle-02.svg);
+                }
             }
-        }
-    
-        &:has(:checked) {
-            border: 2px solid var(--stroke-highlight);
+        
+            &:has(:checked) {
+                border: 2px solid var(--stroke-highlight);
 
-            & .radio-image {
-                background-image: url(../../assets/checkmark-circle-01.png);
+                & .radio-image {
+                    background-image: url(../../assets/checkmark-circle-01.png);
+                }
             }
-        }
 
 }
